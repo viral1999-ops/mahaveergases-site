@@ -12,7 +12,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="canonical" href="https://mahaveergases.in/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mahaveer Gases | Fine Chem","url":"https://mahaveergases.in/","logo":"https://mahaveergases.in/logo-navy.svg","telephone":["+917000940396","+919425103256"],"foundingDate":"1978","address":{"@type":"PostalAddress","addressLocality":"Ratlam","addressRegion":"Madhya Pradesh","addressCountry":"IN"},"description":"Manufacturer of medical oxygen with own LMO plant; supplier of industrial, medical and refrigerant gases."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mahaveer Gases | Fine Chem","url":"https://mahaveergases.in/","logo":"https://mahaveergases.in/logo-navy.svg","telephone":["+917000940396","+919425103256"],"foundingDate":"1978","image":"https://mahaveergases.in/img/lmo-tank.jpg","hasMap":"https://www.google.com/maps/search/?api=1&query=Mahaveer+Gases+Jaora+Road+Dosigaon+Ratlam","address":{"@type":"PostalAddress","streetAddress":"01, Jaora Road, Dosigaon","postalCode":"457001","addressLocality":"Ratlam","addressRegion":"Madhya Pradesh","addressCountry":"IN"},"description":"Manufacturer of medical oxygen with own LMO plant; supplier of industrial, medical and refrigerant gases."}</script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}</style>
 <title>Mahaveer Gases | Oxygen Cylinder &amp; Industrial Gas Supplier in Ratlam</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -179,6 +179,21 @@ form.quote textarea{resize:vertical;min-height:84px}
 .note{font-size:13px;color:var(--mute)}
 @media (max-width:860px){.contact .wrap{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
 
+
+/* plant gallery */
+.plant{padding-block:20px 110px}
+.gallery{display:grid;grid-template-columns:1.05fr 1fr 1fr;grid-template-rows:260px 260px;gap:14px}
+.ph{position:relative;margin:0;border-radius:24px;overflow:hidden;background:var(--frost);min-width:0}
+.ph img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.ph:hover img{transform:scale(1.12)}
+.ph figcaption{position:absolute;left:14px;bottom:14px;right:14px;color:#fff;font-weight:700;font-size:14px;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.ph figcaption small{display:block;font-weight:500;opacity:.85;font-size:12.5px}
+.ph::after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(transparent,rgba(7,15,34,.65));pointer-events:none}
+.ph figcaption{z-index:1}
+.g-tank{grid-row:span 2}
+.g-yard{grid-column:span 2}
+@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:auto}.g-tank{grid-row:span 1;grid-column:span 2;aspect-ratio:4/5}.g-yard{grid-column:span 2;aspect-ratio:16/10}.ph{aspect-ratio:1}.g-tank,.g-yard{aspect-ratio:auto}.g-tank{height:460px}.g-yard{height:230px}}
+
 /* faq */
 .faq{padding-block:100px}
 .faq .wrap{max-width:820px}
@@ -217,7 +232,7 @@ footer img{height:34px;width:auto}
     <a class="brand" href="#top" aria-label="Mahaveer Gases home"><img src="logo-white.svg" alt="Mahaveer Gases | Fine Chem" width="155" height="30"></a>
     <ul>
       <li><a href="#gases">Gases</a></li>
-      <li><a href="#plant">Our Plant</a></li>
+      <li><a href="#photos">Our Plant</a></li>
       <li><a href="#why">Why Us</a></li>
       <li><a href="#industries">Industries</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -284,6 +299,19 @@ footer img{height:34px;width:auto}
       <div class="stat rv"><b data-count="48" data-suffix="+">48+</b><span>Years of trust</span></div>
       <div class="stat rv"><b data-count="13" data-suffix="+">13+</b><span>Gases supplied</span></div>
       <div class="stat rv"><b>LMO</b><span>Own liquid oxygen plant</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="plant" id="photos">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Our plant</div><h2 class="rv">See where your<br>oxygen is made.</h2></div><p class="rv">Real photos from our plant on Jaora Road, Dosigaon, Ratlam.</p></div>
+    <div class="gallery">
+      <figure class="ph g-tank rv"><picture><source type="image/webp" srcset="img/lmo-tank-sm.webp 800w, img/lmo-tank.webp 1600w" sizes="(max-width:760px) 100vw, 40vw"><img src="img/lmo-tank-sm.jpg" srcset="img/lmo-tank-sm.jpg 800w, img/lmo-tank.jpg 1600w" sizes="(max-width:760px) 100vw, 40vw" alt="Liquid oxygen (LMO) storage tank at Mahaveer Gases plant, Ratlam" loading="lazy" decoding="async"></picture><figcaption>Liquid oxygen (LMO) tank<small>Stored at −183 °C</small></figcaption></figure>
+      <figure class="ph g-yard rv"><picture><source type="image/webp" srcset="img/plant-yard-sm.webp 800w, img/plant-yard.webp 1600w" sizes="(max-width:760px) 100vw, 40vw"><img src="img/plant-yard-sm.jpg" srcset="img/plant-yard-sm.jpg 800w, img/plant-yard.jpg 1600w" sizes="(max-width:760px) 100vw, 40vw" alt="Mahaveer Gases plant yard with LMO tank and cylinder trolley" loading="lazy" decoding="async"></picture><figcaption>The plant yard<small>LMO tank, vaporiser and cylinder handling</small></figcaption></figure>
+      <figure class="ph g-fill rv"><picture><source type="image/webp" srcset="img/filling-station-sm.webp 800w, img/filling-station.webp 1600w" sizes="(max-width:760px) 100vw, 40vw"><img src="img/filling-station-sm.jpg" srcset="img/filling-station-sm.jpg 800w, img/filling-station.jpg 1600w" sizes="(max-width:760px) 100vw, 40vw" alt="Cylinder filling manifold inside Mahaveer Gases plant" loading="lazy" decoding="async"></picture><figcaption>Filling station<small>Cylinders filled and leak-tested</small></figcaption></figure>
+      <figure class="ph g-sign rv"><picture><source type="image/webp" srcset="img/plant-signboard-sm.webp 800w, img/plant-signboard.webp 1600w" sizes="(max-width:760px) 100vw, 40vw"><img src="img/plant-signboard-sm.jpg" srcset="img/plant-signboard-sm.jpg 800w, img/plant-signboard.jpg 1600w" sizes="(max-width:760px) 100vw, 40vw" alt="Mahaveer Gases signboard at the plant gate, Jaora Road, Ratlam" loading="lazy" decoding="async"></picture><figcaption>Find us<small>01, Jaora Road, Dosigaon</small></figcaption></figure>
     </div>
   </div>
 </section>
@@ -384,7 +412,7 @@ footer img{height:34px;width:auto}
         <div class="person"><div><small>Viral Pitliya</small><b>+91 70009 40396</b></div><div class="acts"><a class="btn btn-ghost btn-sm" href="tel:+917000940396">Call</a><a class="btn btn-orange btn-sm" href="https://wa.me/917000940396" target="_blank" rel="noopener">WhatsApp</a></div></div>
         <div class="person"><div><small>Office</small><b>+91 94251 03256</b></div><div class="acts"><a class="btn btn-ghost btn-sm" href="tel:+919425103256">Call</a><a class="btn btn-orange btn-sm" href="https://wa.me/919425103256" target="_blank" rel="noopener">WhatsApp</a></div></div>
       </div>
-      <p class="place">📍 Ratlam, Madhya Pradesh · mahaveergases.in</p>
+      <p class="place">📍 01, Jaora Road, Dosigaon, Ratlam (M.P.) 457001<br><a href="https://www.google.com/maps/search/?api=1&query=Mahaveer+Gases+Jaora+Road+Dosigaon+Ratlam" target="_blank" rel="noopener" style="color:#FF8A47;font-weight:700">Get directions on Google Maps →</a></p>
     </div>
     <form class="quote" id="quote" novalidate>
       <h3>Request a quote</h3>
@@ -419,7 +447,7 @@ footer img{height:34px;width:auto}
   <div class="wrap seo-links" style="display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:22px"><a href="/oxygen-cylinder-ratlam/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Oxygen cylinders in Ratlam</a><a href="/medical-oxygen-supplier-ratlam/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Medical oxygen for hospitals and clinics</a><a href="/liquid-oxygen-lmo-supplier/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Liquid oxygen (LMO) from our own plant</a><a href="/nitrogen-argon-co2-gas-ratlam/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Industrial gases in Ratlam</a><a href="/refrigerant-gas-r22-r134a-ratlam/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Refrigerant gas for AC and refrigeration</a><a href="/cylinder-refilling-ratlam/" style="color:#C9D3E2;text-decoration:none;font-size:13px">Refill your own cylinders</a><a href="/oxygen-cylinder-ratlam-hindi/" style="color:#C9D3E2;text-decoration:none;font-size:13px">रतलाम में ऑक्सीजन सिलेंडर और गैस सप्लाई</a></div>
   <div class="wrap">
     <img src="logo-white.svg" alt="Mahaveer Gases | Fine Chem" width="176" height="34">
-    <div>Purity · Pressure · Precision<br>© <span id="yr">2026</span> Mahaveer Gases | Fine Chem, Ratlam (M.P.)</div>
+    <div>Purity · Pressure · Precision<br>© <span id="yr">2026</span> Mahaveer Gases | Fine Chem · 01, Jaora Road, Dosigaon, Ratlam (M.P.) 457001</div>
   </div>
 </footer>
 
